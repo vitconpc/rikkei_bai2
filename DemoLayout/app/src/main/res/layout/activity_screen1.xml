@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.Screen1Activity">
+
+    <RadioGroup
+        android:id="@+id/rgp_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbn_red"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/red" />
+
+        <RadioButton
+            android:id="@+id/rbn_green"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/green" />
+
+        <RadioButton
+            android:id="@+id/rbn_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/blue" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="setColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_color"
+            android:textAllCaps="false" />
+
+        <Button
+            android:onClick="clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp_20" />
+</LinearLayout>

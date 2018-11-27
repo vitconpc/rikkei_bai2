@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DemoFragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_student_name">Nhập tên sinh viên</string>
+    <string name="register">Đăng ký</string>
+    <string name="country">Quê quán</string>
+    <string name="birthday">Ngày sinh</string>
+    <string name="gender">Giới tính</string>
+    <string name="classroom">Lớp</string>
+    <string name="cource">Khóa học</string>
+    <string name="on_back">Trở về</string>
+</resources>
